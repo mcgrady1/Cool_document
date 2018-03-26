@@ -1,4 +1,4 @@
-Project Triforce: Run AFL on Everything!
+# [Project Triforce: Run AFL on Everything!](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2016/june/project-triforce-run-afl-on-everything/)
 
 This is a pretty long blogpost, so for those who want to jump right to the code:
 
@@ -103,10 +103,10 @@ To see the changes made to QEMU run:
     git diff a567f4 qemu_mode/qemu to see all changes to stock QEMU.
     git diff 4c01f8 qemu_mode/qemu to see all changes made to AFL's version of QEMU.
     git diff df9132 [a-pr-z]* to see all changes to AFL's sources.
-
+    
     The fuzzer our project alludes to in name. At an earlier stage, we planned to combine Trinity, AFL, and QEMU into a new thing. Being nerds, thought Triforce might be a fun name, and even had plans to name components Link and Navi and such. In the end, we just extended AFL+QEMU, and didn’t use anything from Trinity. So the name Triforce is now essentially an orphaned initialism. ↩
-
+    
     A QEMU hacker who knows far more than me suggests that this issue will be solved if we merged operations from the RCU and IO threads into the main thread so threads don’t need to be recreated on fork. Again, feel free to send us a PR! We may also fix this ourselves at some point. ↩
-
+    
     This is a known limitation (as discussed in the design section), and a number of solutions are possible for systems which require a real backing store. The solution we’ve been tossing around is to have the host maintain a base FS that is forked with the VM, and provides CoW semantics. Feel free to send us a pull request! We may also get around to writing this ourselves. ↩
 

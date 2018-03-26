@@ -1,5 +1,5 @@
+# [How to install Tensorflow 1.5.0 using official pip package](http://www.python36.com/install-tensorflow-using-official-pip-pacakage/)
 
-How to install Tensorflow 1.5.0 using official pip package
 Easiest method to install official pre-built tensorflow pip packages for both CPU and GPU versions on Ubuntu and Windows.
 
 2018-01-23 Arun Mandal 36
@@ -47,11 +47,11 @@ $ python3
 >>> hello = tf.constant('Hello, TensorFlow!')
 >>> sess = tf.Session()
 >>> sess.run(hello)
-'Hello, TensorFlow!'
+>>> 'Hello, TensorFlow!'
 >>> a = tf.constant(10)
 >>> b = tf.constant(32)
 >>> sess.run(a + b)
-42
+>>> 42
 >>> sess.close()
 
 This is all you need to do to install tensorflow CPU version on Ubuntu 16.04.
@@ -215,11 +215,11 @@ $ python
 >>> hello = tf.constant('Hello, TensorFlow!')
 >>> sess = tf.Session()
 >>> sess.run(hello)
-'Hello, TensorFlow!'
+>>> 'Hello, TensorFlow!'
 >>> a = tf.constant(10)
 >>> b = tf.constant(32)
 >>> sess.run(a + b)
-42
+>>> 42
 >>> sess.close()
 
 Note:- It may take some time after tf.Session() for first time.
@@ -260,11 +260,11 @@ $ python
 >>> hello = tf.constant('Hello, TensorFlow!')
 >>> sess = tf.Session()
 >>> sess.run(hello)
-'Hello, TensorFlow!'
+>>> 'Hello, TensorFlow!'
 >>> a = tf.constant(10)
 >>> b = tf.constant(32)
 >>> sess.run(a + b)
-42
+>>> 42
 >>> sess.close()
 
 This is all you need to do to install tensorflow CPU version on Windows OS.
@@ -340,11 +340,11 @@ $ python
 >>> hello = tf.constant('Hello, TensorFlow!')
 >>> sess = tf.Session()
 >>> sess.run(hello)
-'Hello, TensorFlow!'
+>>> 'Hello, TensorFlow!'
 >>> a = tf.constant(10)
 >>> b = tf.constant(32)
 >>> sess.run(a + b)
-42
+>>> 42
 >>> sess.close()
 
 Note:- It may take some time after tf.Session() for first time.
